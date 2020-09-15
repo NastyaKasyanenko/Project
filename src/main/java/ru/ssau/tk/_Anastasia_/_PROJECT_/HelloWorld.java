@@ -1,4 +1,4 @@
-package ru.ssau.tk._NAME_._PROJECT_;
+package ru.ssau.tk._Anastasia_._PROJECT_;
 
 public class HelloWorld {
 
