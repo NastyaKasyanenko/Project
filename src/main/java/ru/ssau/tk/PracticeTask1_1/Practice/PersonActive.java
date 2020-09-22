@@ -1,6 +1,4 @@
-package ru.ssau.tk.Practice;
-import ru.ssau.tk.Practice.Person.*;
-import ru.ssau.tk.Practice.Person.Person;
+package ru.ssau.tk.PracticeTask1_1.Practice;
 
 public class PersonActive {
 
