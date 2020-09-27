@@ -1,4 +1,4 @@
-package ru.ssau.tk.PracticeTask1_3;
+package ru.ssau.tk.PracticeTask1_3and1_4;
 
 public class Point {
     public final double x;
