@@ -17,22 +17,27 @@ public class Person {
         }
 
         public void setfirstName (String firstName){
+
             this.firstName = firstName;
         }
 
         public String getlastName () {
+
             return lastName;
         }
 
         public void setlastName (String lastName){
+
             this.lastName = lastName;
         }
 
         public int getpassportId () {
+
             return passportId;
         }
 
         public void setpassportId ( int passportId){
+
             this.passportId = passportId;
         }
     }

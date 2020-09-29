@@ -4,16 +4,16 @@ import ru.ssau.tk.PracticeTask1_3and1_4.Point.*;
         private Points(){
 
         }
-        public static Point sum(Point A, Point B){
-            return new Point(A.x + B.x, A.y + B.y, A.z + B.z);
+        public static Point sum(Point per1, Point per2){
+            return new Point(per1.x + per2.x, per1.y + per2.y, per1.z + per2.z);
         }
-        public static Point subtract(Point A, Point B){
-            return new Point(A.x - B.x, A.y - B.y, A.z - B.z);
+        public static Point subtract(Point per1, Point per2){
+            return new Point(per1.x - per2.x, per1.y - per2.y, per1.z - per2.z);
         }
-        public static Point multiply(Point A, Point B){
-            return new Point(A.x * B.x, A.y * B.y, A.z * B.z);
+        public static Point multiply(Point per1, Point per2){
+            return new Point(per1.x * per2.x, per1.y * per2.y, per1.z * per2.z);
         }
-        public static Point divide(Point A, Point B){
-            return new Point(A.x / B.x, A.y / B.y, A.z / B.z);
+        public static Point divide(Point per1, Point per2){
+            return new Point(per1.x / per2.x, per1.y / per2.y, per1.z / per2.z);
         }
 }
