@@ -19,4 +19,10 @@ import ru.ssau.tk.PracticeTask1_3and1_4.Point.*;
         public static Point enlarge(Point peremennaya,double c){
             return new Point(peremennaya.x*c,peremennaya.y*c,peremennaya.z*c);
         }
+        static Point opposite(Point peremennaya){
+            return new Point(peremennaya.x*-1,peremennaya.y*-1,peremennaya.z*-1);
+        }
+        static Point inverse(Point peremennaya){
+            return new Point(1/peremennaya.x, 1/peremennaya.y, 1/peremennaya.z);
+        }
 }
