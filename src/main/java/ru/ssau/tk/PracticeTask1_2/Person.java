@@ -24,7 +24,7 @@ public class Person {
         return passportId;
     }
 
-    Person(){
+    public Person(){
         firstName = "Ivan";
         lastName = "Pelmenikov";
         passportId = 228;
