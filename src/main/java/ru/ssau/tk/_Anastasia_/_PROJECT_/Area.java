@@ -25,7 +25,6 @@ public class Area {
                 double area = (num1 * num2);
                 System.out.println("Площадь треугольника равна: " + area);
                 i++;
-
             } else if (choice.equals(choice3)) {
                 System.out.println("Введите радиус круга: ");
                 double radius = in.nextDouble();
