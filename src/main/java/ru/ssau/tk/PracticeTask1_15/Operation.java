@@ -1,6 +1,6 @@
 package ru.ssau.tk.PracticeTask1_15;
 
-abstract public class Operation {
+ public abstract class Operation {
     abstract double apply(double number);
 
     double applyTripple (double number){
