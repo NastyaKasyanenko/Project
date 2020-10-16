@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
 public class NamedPointTest {
-
     NamedPoint second = new NamedPoint(1, 2, 3);
     NamedPoint first = new NamedPoint(4, 5, 6, "Nastya");
 
