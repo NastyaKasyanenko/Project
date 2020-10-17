@@ -1,10 +1,22 @@
 package ru.ssau.tk.PracticeTask1_2;
 
+import ru.ssau.tk.PracticeTask1_17.Gender;
+
 public class Person {
 
         private String firstName;
         private String lastName;
         private int passportId;
+        Gender gender;
+
+    void setGender(Gender gender){
+        this.gender = gender;
+    }
+
+    Gender getGender(){
+
+        return gender;
+    }
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -51,6 +63,12 @@ public class Person {
         System.out.println(secondPerson.getfirstName());
         System.out.println(thirdPerson.getpassportId());
         System.out.println(fourthPerson.getlastName());
+    }
+    public Person (String firstName, String lastName, int passportId, Gender gender) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.passportId = passportId;
+        this.gender = gender;
     }
 }
 
