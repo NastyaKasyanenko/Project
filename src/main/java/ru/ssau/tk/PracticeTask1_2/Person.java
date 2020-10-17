@@ -10,6 +10,7 @@ public class Person {
         Gender gender;
 
     void setGender(Gender gender){
+
         this.gender = gender;
     }
 
