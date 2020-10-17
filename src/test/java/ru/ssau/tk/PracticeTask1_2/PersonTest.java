@@ -1,6 +1,7 @@
 package ru.ssau.tk.PracticeTask1_2;
 
 import org.testng.annotations.Test;
+import ru.ssau.tk.PracticeTask1_17.Gender;
 
 import static org.testng.Assert.*;
 
@@ -41,6 +42,17 @@ public void testPassportId(){
         assertNotEquals(somePerson.getpassportId(), 1234);
         assertEquals(somePerson.getpassportId(), 5678);
         }
+        @Test
+        public void testGender(){
+                Person somePerson = new Person("Nastya", "Kasyanenko", 1234, Gender.MALE);
 
+                assertNotEquals(somePerson.getGender(), Gender.FEMALE);
+                assertEquals(somePerson.getGender(), Gender.MALE);
 
+                somePerson.setGender(Gender.FEMALE);
+
+                assertEquals(somePerson.getGender(), Gender.FEMALE);
+                assertNotEquals(somePerson.getGender(), Gender.MALE);
         }
+
+}
