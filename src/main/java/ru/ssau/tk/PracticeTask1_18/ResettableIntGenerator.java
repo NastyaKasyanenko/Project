@@ -15,6 +15,7 @@ public class ResettableIntGenerator implements Resettable, IntGenerator {
     }
 
     public String getName() {
+
         return name;
     }
 }
