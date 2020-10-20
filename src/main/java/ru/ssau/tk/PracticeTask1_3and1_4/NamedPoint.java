@@ -15,6 +15,7 @@ public class NamedPoint extends Point {
     }
 
     public String getName() {
+
         return name = name;
     }
 
