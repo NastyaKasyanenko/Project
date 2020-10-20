@@ -22,4 +22,14 @@ public class NamedPointTest {
         assertNull(second.getName());
         assertEquals(first.getName(), "Nastya");
     }
+    @Test
+    public void  testreset(){
+        first.reset();
+        assertEquals(first.getName(), "Absent");
+        assertNotEquals(first.getName(), "Cat");
+
+        second.reset();
+        assertEquals(second.getName(), "Absent");
+        assertNotEquals(second.getName(), "Nastya");
+    }
 }
