@@ -11,8 +11,8 @@ public class Massiv3Test {
         int[] array = Massiv3.massiv(5);
         assertEquals(array[0], 10);
         assertEquals(array[1], 8);
-        assertEquals(array[2],6);
+        assertEquals(array[2], 6);
         assertEquals(array[3], 4);
-        assertEquals(array[4],2);
+        assertEquals(array[4], 2);
     }
 }
