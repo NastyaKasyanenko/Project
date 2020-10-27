@@ -11,3 +11,4 @@ public class Massiv4 {
         return array;
     }
 }
+
