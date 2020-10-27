@@ -4,11 +4,11 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class Massive6Test {
+public class Massiv6Test {
 
     @Test
     public void testMassiv() {
-        double[] integer = Massive6.massiv(15);
+        double[] integer = Massiv6.massiv(15);
         assertEquals(integer[0], 1);
         assertEquals(integer[1], 2);
         assertEquals(integer[2], 4);

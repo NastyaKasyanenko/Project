@@ -1,6 +1,6 @@
 package ru.ssau.tk.PracticeTask2_8;
 
-public class Massive6 {
+public class Massiv6 {
     public static double[] massiv(int size) {
         double[] massiv = new double[size];
         int j = 1;
