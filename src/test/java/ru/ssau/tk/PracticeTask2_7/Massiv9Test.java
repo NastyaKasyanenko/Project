@@ -15,7 +15,7 @@ public class Massiv9Test {
 
     @Test
     public void _1test() throws Exception {
-        double[] _1SEqution = Massiv9.number(1, 1, 2);
+        double[] _1SEqution = Massiv9.number(1, 1, -2);
         assertEquals(_1SEqution[0], 1, DELTA);
         assertEquals(_1SEqution[1], -2, DELTA);
     }
