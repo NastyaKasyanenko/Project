@@ -1,10 +1,10 @@
 package ru.ssau.tk.PracticeTask2_17;
 
 public class Massiv14 {
-    static int numberEven(int[] array) {
+    static int number(int[] massiv) {
         int j = 0;
-        for (int i : array) {
-            if (array[i] % 2 == 0) {
+        for (int i : massiv) {
+            if (massiv[i] % 2 == 0) {
                 j++;
             }
         }
