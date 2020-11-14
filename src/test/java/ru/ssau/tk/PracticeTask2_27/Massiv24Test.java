@@ -8,6 +8,6 @@ public class Massiv24Test {
 
     @Test
     public void testMassiv() {
-        assertEquals(Massiv24.massiv(new int[]{1, 3, 5}), new boolean[]{false,true,false,true});
+        assertEquals(Massiv24.massiv(new int[]{1, 4, 5}), new boolean[]{false,true,false});
     }
 }
