@@ -1,7 +1,7 @@
 package ru.ssau.tk.PracticeTask2_30;
 
 public class Massiv27 {
-    static int[][] Vector(int size) {
+    static int[][] vector(int size) {
         int[][] arr = new int[size][];
         int k = 1;
         for (int i = 0; i < size; i++) {
