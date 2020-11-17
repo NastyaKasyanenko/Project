@@ -2,7 +2,7 @@ package ru.ssau.tk.PracticeTask2_34;
 
 public class Massiv30 {
     static Double multiply(Double[] array) {
-        double number = 3.;
+        double number = 4.;
         for (Double i : array) {
             if(i.isNaN()||i.isInfinite()){
                 continue;
