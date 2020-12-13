@@ -1,7 +1,8 @@
-package ru.ssau.tk.PracticeTask4_1;
+package ru.ssau.tk.PracticeTask4_2;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import ru.ssau.tk.PracticeTask4_2.Exception1;
 
 import static org.testng.Assert.*;
 

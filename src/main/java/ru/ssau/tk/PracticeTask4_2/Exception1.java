@@ -1,4 +1,4 @@
-package ru.ssau.tk.PracticeTask4_1;
+package ru.ssau.tk.PracticeTask4_2;
 
 public class Exception1 {
     public static String[] getSymbol(String[] str, int n) {
