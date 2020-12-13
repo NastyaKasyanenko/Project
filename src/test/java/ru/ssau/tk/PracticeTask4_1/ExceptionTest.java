@@ -10,8 +10,8 @@ public class ExceptionTest {
 
     @Test
     public void testObjectPerson() {
-        Person person1 = new Person("Ivan", "Pelmenikov");
-        assertEquals(Exception.objectPerson(person1), "Ivan Pelmenikov");
+        Person person1 = new Person("Svetlana", "Ivanova");
+        assertEquals(Exception.objectPerson(person1), "Svetlana Ivanova");
         Person person2 = new Person(null, null);
         Assert.assertThrows(NullPointerException.class, () -> Exception.objectPerson(person2));
     }
