@@ -55,6 +55,10 @@ public class Person {
         this.lastName = lastName;
         this.passportId = passportId;
     }
+    @Override
+    public String toString() {
+        return firstName + (firstName.isEmpty() || lastName.isEmpty() ? "" : " ") + lastName;
+    }
     public static void main(String[] args){
         Person firstPerson = new Person();
         Person secondPerson = new Person("Svetlana", "Ivanova");
