@@ -40,6 +40,10 @@ public class TextFieldTest extends JFrame
         contents.add(password  );
         setContentPane(contents);
         // Определяем размер окна и выводим его на экран
+        contents.setBackground(Color.BLUE);
+        smallField.setBackground(Color.RED);
+        bigField.setBackground(Color.YELLOW);
+        password.setBackground(Color.GREEN);
         setSize(400, 200);
         setVisible(true);
     }
