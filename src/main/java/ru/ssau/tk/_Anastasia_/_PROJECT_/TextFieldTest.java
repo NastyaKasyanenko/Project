@@ -22,6 +22,7 @@ public class TextFieldTest extends JFrame
         // Настройка шрифта
         bigField.setFont(new Font("Dialog", Font.PLAIN, 14));
         bigField.setHorizontalAlignment(JTextField.RIGHT);
+       bigField.setForeground(Color.blue);
         // Слушатель окончания ввода
         smallField.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
