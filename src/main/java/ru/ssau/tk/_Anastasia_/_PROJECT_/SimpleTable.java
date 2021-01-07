@@ -6,12 +6,16 @@ import java.util.Vector;
 
 public class SimpleTable extends JFrame{
     // Данные для таблиц
-    private Object[][] array = new String[][] {{ "Сахар" , "кг", "1.5" },
+    private Object[][] array = new String[][] {
+            { "Сахар" , "кг", "1.5" },
             { "Мука"  , "кг", "4.0" },
-            { "Молоко", "л" , "2.2" }};
+            { "Молоко", "л" , "2.2" },
+            { "Конфеты", "кг", "0.5"},
+            { "Сок", "л", "2.0"},
+    };
     // Заголовки столбцов
-    private Object[] columnsHeader = new String[] {"Наименование", "Ед.измерения",
-            "Количество"};
+    private Object[] columnsHeader = new String[] {"Продукт", "Ед.измерения",
+            "Вес/Объем"};
     public SimpleTable() {
         super("Простой пример с JTable");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -23,7 +27,7 @@ public class SimpleTable extends JFrame{
         table2.setRowHeight(30);
         table2.setRowHeight(1, 20);
         table2.setIntercellSpacing(new Dimension(10, 10));
-        table2.setGridColor(Color.blue);
+        table2.setGridColor(Color.pink);
         table2.setShowVerticalLines(false);
 
         // Данные для таблицы на основе Vector
@@ -31,7 +35,7 @@ public class SimpleTable extends JFrame{
         // Вектор с заголовками столбцов
         Vector<String> header = new Vector<String>();
         // Формирование в цикле массива данных
-        for (int j = 0; j < array.length; j++) {
+        for (int j = 0; j < array[j].length; j++) {
             header.add((String)columnsHeader[j]);
             Vector<String> row = new Vector<String>();
             for (int i = 0; i < array[j].length; i++) {
