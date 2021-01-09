@@ -22,4 +22,7 @@ public class Settlement extends Location{
     public void setType(SettlementType type) {
         this.type = type;
     }
+
+    public void setType(ru.ssau.tk.PracticeTask5_1.SettlementType city) {
+    }
 }

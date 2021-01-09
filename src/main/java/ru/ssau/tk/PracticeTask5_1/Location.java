@@ -38,5 +38,10 @@ public class Location {
 
     public String getName() {
         return name;
+
+    }
+
+    public static class SettlementType {
+        public static final SettlementType VILLAGE = new SettlementType();
     }
 }
