@@ -1,21 +1,18 @@
 package ru.ssau.tk.PracticeTask1_2;
 
-import ru.ssau.tk.PracticeTask1_17.Gender;
-
+import ru.ssau.tk.PracticeTask1_17.*;
 public class Person {
 
-        private String firstName;
-        private String lastName;
-        private int passportId;
-        Gender gender;
+    private String firstName;
+    private String lastName;
+    private int passportId;
+    private Gender gender;
 
-    void setGender(Gender gender){
-
+    public void setGender(Gender gender){
         this.gender = gender;
     }
 
-    Gender getGender(){
-
+    public Gender getGender(){
         return gender;
     }
     public void setFirstName(String firstName) {
@@ -76,6 +73,3 @@ public class Person {
         this.gender = gender;
     }
 }
-
-
-

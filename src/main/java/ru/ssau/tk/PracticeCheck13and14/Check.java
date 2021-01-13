@@ -1,5 +1,5 @@
 package ru.ssau.tk.PracticeCheck13and14;
-import ru.ssau.tk.PracticeTask1_2.Person;
+import ru.ssau.tk.PracticeTask1_2.*;
 public class Check {
     public static void main(String[] args) {
         Person person = new Person();/*Создала объект в среде main*/

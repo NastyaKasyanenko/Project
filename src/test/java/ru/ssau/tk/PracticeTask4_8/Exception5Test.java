@@ -3,15 +3,14 @@ package ru.ssau.tk.PracticeTask4_8;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
-import static ru.ssau.tk.PracticeTask4_8.Exception5.throwCheckedException;
+import static ru.ssau.tk.PracticeTask4_8.Checked.throwCheckedException;
 
-public class Exception5Test {
-
+class CheckedTest {
     @Test
     public void test() {
         try {
             throwCheckedException();
-        } catch (Exception5 e) {
+        } catch (Checked e) {
             e.getCause();
         }
     }
